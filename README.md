@@ -1,9 +1,5 @@
-Absolutely! Below is a template for your `README.md` file to provide essential information about your GitHub repository:
-
 ```markdown
 # Discord Role Alert Bot
-
-![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 
 ## Description
 
@@ -29,19 +25,14 @@ This bot is intended to enhance community engagement and ensure that all members
    ```
 
 3. Obtain your Discord bot token from the [Discord Developer Portal](https://discord.com/developers/applications).
-4. Create a new file named `config.json` and add your Discord bot token in the following format:
-
-   ```json
-   {
-     "token": "YOUR_BOT_TOKEN"
-   }
-   ```
+4. Copy the token of your Discord bot and either place it in the BOT_TOKEN variable in the main script or run setup.py and paste your token when prompted.
 
 5. Configure the necessary settings in the script, such as the desired voice channels and role assignment behavior.
+   (This can be done easily from setup.py)
 6. Run the Python script:
 
    ```bash
-   python main.py
+   python VoiceChannelRoleBot.py
    ```
 
 7. Invite the bot to your Discord server using the OAuth2 URL generated in the [Discord Developer Portal](https://discord.com/developers/applications).
@@ -56,8 +47,6 @@ Please use this bot responsibly and in compliance with Discord's [Terms of Servi
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+Not Listed
 
 ```
-
-Make sure to replace the placeholders like `YOUR_BOT_TOKEN` with your actual bot token, and update any other specific instructions or customization details for your script. The README.md provides essential information for users and potential contributors, so feel free to add or modify sections as needed. Happy coding!
